@@ -53,7 +53,7 @@ public class Max_Min_Stack {
             if (!stackMax.isEmpty()) {
                 return stackMax.peek();
             } else {
-                throw new IllegalArgumentException("Стек пуст");
+                throw new IllegalArgumentException("Exception Stack is empty");
             }
         }
 }
